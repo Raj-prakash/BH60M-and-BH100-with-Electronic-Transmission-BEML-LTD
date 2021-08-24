@@ -1,1 +1,16 @@
+EF00	61184	done
+FF02	65282	done
+FF01	65281	done
+FFAA	65450	done
+FF00	65280	done
+FF03	65283	done
+FF0F	65295
+FFC9	65481
+F029	61481
+FF04	65284
 
+https://www.altorfer.com/wp-content/uploads/2017/03/PSI-HD_Supported_CAN_Messages_22.pdf
+https://pyramidsolutions.com/wp-content/uploads/2018/07/J1939-Data-Mapping-Explained_Final.pdf
+https://gurtam.com/files/ftp/CAN/j1939-71.pdf
+https://docs.google.com/spreadsheets/d/10f7-TFU9oViSQZYGFYVPDia2w1hd5eOPMlgJXmx31Lg/edit#gid=1130918092
+https://michael.chtoen.com/convert-j1939-id-to-pgn.php

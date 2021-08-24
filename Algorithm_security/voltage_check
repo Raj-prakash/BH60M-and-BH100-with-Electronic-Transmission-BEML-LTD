@@ -1,0 +1,16 @@
+//check the voltage stabitity of the network
+voltage_check(){
+	if ((CAN_HIGH == 2.5 || CAN_HIGH == 3.5){
+		print("Voltage stable:"+voltage)
+	} 
+	else{
+		alert("Voltage fluctuation was noticed in CAN_HIGH, check for threats")
+	}
+
+	if ((CAN_LOW == 2.5 || CAN_LOW == 1.5){
+		print("Voltage stable:"+voltage)
+	} 
+	else{
+		print("Voltage fluctuation was noticed in CAN_LOW, check for threats")
+	}
+}

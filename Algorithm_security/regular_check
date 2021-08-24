@@ -1,0 +1,33 @@
+//regular_check() is a method that will regularlly and randomly be called to check the number of devices connected
+int num
+int present_device
+boolean result
+	
+regular_check(){
+	total_device() //this method will retieve total device registered in the DB
+	{
+		//req sent for total_device
+		//req received
+		int total_device //total device stored here
+		num = total_device
+	}
+	count()
+	{
+		//check how many present_device in car
+		present_device = //result stored here
+	}
+	if(num == present_device)
+		{
+			set result = TRUE
+		}
+	else{
+		set result = FALSE
+	}
+	if(result){
+	attend_log.maintenance (add_info) //adding the result into log maintenance
+	}
+	else{
+	alert("additional device is detected...!!!")
+	}
+
+}

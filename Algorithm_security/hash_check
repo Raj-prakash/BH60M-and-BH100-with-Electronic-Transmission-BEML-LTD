@@ -1,0 +1,27 @@
+//compare unique hash of ECU and DB
+string hash_db[]
+string hash_ecu[]
+hash_retrieve_db() //this method will be called to retrieve hashes from DB
+	{
+	hast_db[] = //store the hash here in array
+	} 
+hash_retrieve_ecu() //this method will be called to retrieve unique hash from DB
+	{
+	hash_ecu[] = //store the unique hash in array
+	}
+
+hash_check() //this function will check the equality of the hash
+	{
+	hash_retrieve_db() //calling the method
+	hash_retrieve_ecu() //calling the method
+		while(hash_db != NULL){
+			if (hash_db[] == hash_ecu[])
+				{
+				hash_log.maintenance (add_info) //adding the result into log maintenance
+				}
+			else{
+				alert("some ECU are not reponding / hash code mismatch /n" + problem)
+			}
+
+		}
+	}

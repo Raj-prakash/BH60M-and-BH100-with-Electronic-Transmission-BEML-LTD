@@ -1,0 +1,30 @@
+if (foreign_device == connected.obd2)
+	{
+		if (foreign_device == req_data.obd2)
+		{
+			req(auth)
+				if (req(auth) == TRUE)
+				{
+						req_grant.obd2()
+				}
+				else
+				{
+					print "You are not authorised!"
+				}
+		}
+		if(foreign_device == send_data.obd2)
+		{
+		req(auth)
+				if (req(auth) == TRUE)
+				{
+						send_grant.obd2()
+				}
+				else
+				{
+					print "You are not authorised!"
+				}
+		}
+	}
+else{
+	//no action required
+}
